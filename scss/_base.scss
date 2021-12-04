@@ -1,3 +1,11 @@
+$color-White: hsl(0, 0%, 100%);
+$color-Black: hsl(0, 0%, 0%);
+$color-DarkGray: hsl(0, 0%, 55%);
+$color-VeryDarkGray: hsl(0, 0%, 41%);
+
+$font-primary: "Alata", sans-serif; //- Weight: 400
+$font-secondary: "Josefin Sans", sans-serif; //- Weight: 300
+
 *,
 *::before,
 *::after {
@@ -13,4 +21,5 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: $font-primary;
 }
