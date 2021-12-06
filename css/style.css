@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Alata", sans-serif;
+}
+
+.loop__container {
+  padding: 5rem 2rem;
+}
+.loop__heading {
+  background-image: url(../images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loop__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loop__loopstudios {
+  width: 14rem;
+}
+.loop__nav--header {
+  display: none;
+}
+.loop__nav--footer {
+  margin-top: 3rem;
+}
+.loop__list--footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.loop__list-link:visited, .loop__list-link:link {
+  color: white;
+}
+.loop__list-link--footer {
+  text-decoration: none;
+}
+.loop__button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.loop__title {
+  color: white;
+  font-size: 3.7rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 4rem;
+  border: 2px solid white;
+  margin: 18rem 0;
+  padding: 2rem 6rem 2rem 2rem;
+}
+.loop__vr-picture {
+  background-image: url("../images/mobile/image-interactive.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 23rem;
+}
+.loop__vr-text {
+  text-align: center;
+}
+.loop__vr-title {
+  font-size: 3.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 4rem;
+  padding: 5rem 0 1rem 0;
+}
+.loop__vr-subtitle {
+  color: #8c8c8c;
+  line-height: 2.8rem;
+  padding: 0 1.6rem;
+  font-size: 1.5rem;
+}
+.loop__creations {
+  text-align: center;
+}
+.loop__creations-title {
+  font-size: 3.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 4rem;
+  padding: 1rem 0 4rem 0;
+}
+.loop__grid-item {
+  min-height: 13rem;
+  margin-bottom: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+}
+.loop__grid-item--earth {
+  background-image: url("../images/mobile/image-deep-earth.jpg");
+}
+.loop__grid-item--night {
+  background-image: url("../images/mobile/image-night-arcade.jpg");
+}
+.loop__grid-item--soccer {
+  background-image: url("../images/mobile/image-soccer-team.jpg");
+}
+.loop__grid-item--grid {
+  background-image: url("../images/mobile/image-grid.jpg");
+}
+.loop__grid-item--vr {
+  background-image: url("../images/mobile/image-from-above.jpg");
+}
+.loop__grid-item--borealist {
+  background-image: url("../images/mobile/image-pocket-borealis.jpg");
+}
+.loop__grid-item--curiosity {
+  background-image: url("../images/mobile/image-curiosity.jpg");
+}
+.loop__grid-item--fisheye {
+  background-image: url("../images/mobile/image-fisheye.jpg");
+}
+.loop__grid-name {
+  text-align: left;
+  color: white;
+  font-size: 2.3rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 18rem 2rem 2rem;
+}
+.loop__grid-name--car {
+  margin: 0 21rem 2rem 2rem;
+}
+.loop__more-link:visited, .loop__more-link:link {
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0.1rem solid black;
+  line-height: 4rem;
+  letter-spacing: 0.5rem;
+  padding: 1rem 2.5rem;
+}
+.loop__footer {
+  background-color: black;
+  text-align: center;
+}
+.loop__footer-text {
+  color: dimgray;
+}
+.loop__social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
