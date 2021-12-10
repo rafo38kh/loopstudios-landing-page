@@ -1,11 +1,30 @@
 .loop__container {
   padding: 5rem 2rem;
+  @media (min-width: 1140px) {
+    padding: 7rem 16rem;
+  }
+
   &--vr {
+    @media (min-width: 1140px) {
+      padding-top: 16rem;
+    }
   }
 
   &--creations {
+    @media (min-width: 1140px) {
+      display: grid;
+      padding-top: 0;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(2, auto);
+    }
   }
 
   &--footer {
+    @media (min-width: 810px) {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(2, auto);
+      grid-gap: 2rem;
+    }
   }
 }
