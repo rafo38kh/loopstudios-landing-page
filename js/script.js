@@ -11,13 +11,13 @@ hamburger.addEventListener("click", () => {
     isActive = true;
     menu.classList.add("menu__active");
     bar.style.position = "fixed";
-    img.src = "../images/icon-close.svg";
+    img.src = "images/icon-close.svg";
     menuFooter.style.display = "none";
   } else {
     isActive = false;
     menu.classList.remove("menu__active");
     bar.style.position = "absolute";
-    img.src = "../images/icon-hamburger.svg";
+    img.src = "images/icon-hamburger.svg";
     menuFooter.style.display = "flex";
   }
 });
