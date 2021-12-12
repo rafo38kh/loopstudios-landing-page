@@ -521,4 +521,17 @@ body {
   }
 }
 
+.menu__active {
+  display: flex;
+}
+
+@keyframes come-in-right {
+  0% {
+    transform: translateX(80rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

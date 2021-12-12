@@ -30,7 +30,6 @@
     width: 90%;
     min-width: 30rem;
     z-index: 1;
-    // position: fixed;
     @media (min-width: 1140px) {
       position: unset;
     }
@@ -64,6 +63,8 @@
     border: 2px solid $color-White;
     margin: 18rem 0;
     padding: 2rem 6rem 2rem 2rem;
+    // transform: translateX(80rem);
+    // animation: come-in-right 0.5s ease-out 700ms alternate forwards;
     @media (min-width: 810px) {
       width: 60%;
     }
@@ -527,5 +528,18 @@
       &-picture {
       }
     }
+  }
+}
+
+.menu__active {
+  display: flex;
+}
+
+@keyframes come-in-right {
+  0% {
+    transform: translateX(80rem);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
