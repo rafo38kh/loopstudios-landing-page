@@ -1,44 +1,87 @@
 @use "./base" as *;
 
 .loop {
-  &__heading {
+  &__header {
+    position: relative;
+    padding: 5rem 2rem;
     background-image: url(../images/mobile/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     @media (min-width: 810px) {
       background-image: url(../images/desktop/image-hero.jpg);
     }
-  }
-
-  &__navigation {
-    // position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  &__loopstudios {
-    width: 14rem;
-    &--header {
-      position: absolute;
-      top: 5rem;
-      left: 2rem;
-      width: 20rem;
-      z-index: 1;
+    @media (min-width: 1140px) {
+      padding: 5rem 15rem;
     }
+  }
+  &__menu-wrapper {
+    @media (min-width: 1140px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__icons-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    min-width: 30rem;
+    z-index: 1;
+    // position: fixed;
+    @media (min-width: 1140px) {
+      position: unset;
+    }
+  }
+
+  &__logo {
+    width: 20rem;
     &--footer {
-      @media (min-width: 810px) {
-        grid-row: 1/ 2;
-        grid-column: 1/2;
-        justify-self: start;
-        align-self: center;
-      }
+      width: 14rem;
+    }
+  }
+
+  &__hamburger-button {
+    background: transparent;
+    border: none;
+    @media (min-width: 1140px) {
+      display: none;
+    }
+  }
+
+  &__hamburger {
+  }
+
+  &__title {
+    color: $color-White;
+    font-size: 3.7rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 4rem;
+    border: 2px solid $color-White;
+    margin: 18rem 0;
+    padding: 2rem 6rem 2rem 2rem;
+    @media (min-width: 810px) {
+      width: 60%;
+    }
+    @media (min-width: 1140px) {
+      width: 60%;
+      font-size: 7rem;
+      line-height: 7rem;
+      margin: 12rem 0 10rem 0;
+      padding: 4rem 4rem 3rem 4rem;
     }
   }
 
   &__nav {
+    display: flex;
+    align-items: center;
+
     &--header {
-      //   display: none;
+      display: none;
       position: fixed;
       background-color: $color-Black;
       width: 100%;
@@ -49,8 +92,7 @@
       }
 
       @media (min-width: 1140px) {
-        display: block;
-        background-color: transparent;
+        all: unset;
       }
     }
 
@@ -71,8 +113,9 @@
     list-style: none;
 
     &--header {
-      margin: 25rem 2rem;
+      margin-left: 2rem;
       @media (min-width: 1140px) {
+        margin: 0;
         display: flex;
         gap: 3rem;
       }
@@ -82,6 +125,8 @@
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
+      margin-left: 50%;
+      transform: translateX(-50%);
       @media (min-width: 810px) {
         flex-direction: row;
       }
@@ -90,6 +135,9 @@
     &-item {
       &--header {
         margin-bottom: 2rem;
+        @media (min-width: 1140px) {
+          margin: 0;
+        }
       }
 
       &--footer {
@@ -109,6 +157,10 @@
       &--header {
         text-transform: uppercase;
         font-size: 3rem;
+        @media (min-width: 1140px) {
+          text-transform: unset;
+          font-size: unset;
+        }
       }
 
       &--footer {
@@ -139,43 +191,6 @@
           }
         }
       }
-    }
-  }
-
-  &__button {
-    position: absolute;
-    right: 2rem;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    z-index: 1;
-    @media (min-width: 1140px) {
-      display: none;
-    }
-  }
-
-  &__hamburger {
-  }
-
-  &__title {
-    color: $color-White;
-    font-size: 3.7rem;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    line-height: 4rem;
-    border: 2px solid $color-White;
-    margin: 18rem 0;
-    padding: 2rem 6rem 2rem 2rem;
-    @media (min-width: 810px) {
-      width: 60%;
-    }
-    @media (min-width: 1140px) {
-      width: 60%;
-      font-size: 7rem;
-      line-height: 7rem;
-      margin: 12rem 0 10rem 0;
-      padding: 4rem 4rem 3rem 4rem;
     }
   }
 
@@ -394,6 +409,7 @@
       margin: 0 12rem 2rem 2rem;
       position: absolute;
       &--car {
+        margin: 0 20rem 2rem 2rem;
       }
     }
   }
