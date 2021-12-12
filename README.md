@@ -25,7 +25,7 @@ This is a solution to the [Loopstudios landing page Challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: [https://github.com/rafo38kh/loopstudios-landing-page](https://github.com/rafo38kh/loopstudios-landing-page)
+- Solution URL: [https://www.frontendmentor.io/solutions/loopstudios-landing-page-with-bem-css-grid-flexbox-and-vanilla-js-\_2eVIP7tw](https://www.frontendmentor.io/solutions/loopstudios-landing-page-with-bem-css-grid-flexbox-and-vanilla-js-_2eVIP7tw)
 - Live Site URL: [https://rafo38kh.github.io/loopstudios-landing-page/](https://rafo38kh.github.io/loopstudios-landing-page/)
 
 ## My process
