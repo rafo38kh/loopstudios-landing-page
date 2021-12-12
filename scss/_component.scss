@@ -50,8 +50,8 @@
     }
   }
 
-  &__hamburger {
-  }
+  // &__hamburger {
+  // }
 
   &__title {
     color: $color-White;
@@ -141,8 +141,8 @@
         }
       }
 
-      &--footer {
-      }
+      // &--footer {
+      // }
       @media (min-width: 1140px) {
         position: relative;
       }
@@ -195,9 +195,8 @@
     }
   }
 
-  //   VR Section
-  &__main {
-  }
+  // &__main {
+  // }
 
   &__vr {
     &-picture {
@@ -239,10 +238,10 @@
         margin-left: 21rem;
         padding: 0 5rem;
       }
-      &-title {
-      }
-      &-subtitle {
-      }
+      // &-title {
+      // }
+      // &-subtitle {
+      // }
     }
 
     @media (min-width: 1140px) {
@@ -269,8 +268,6 @@
       }
     }
   }
-
-  // Creations Sections
 
   &__creations {
     text-align: center;
@@ -357,7 +354,6 @@
       }
 
       &:hover {
-        // opacity: 0.3;
         cursor: pointer;
 
         &::before {
@@ -447,7 +443,6 @@
     }
   }
 
-  // Footer
   &__footer {
     background-color: $color-Black;
     text-align: center;
@@ -473,12 +468,12 @@
       list-style: none;
       margin: 1rem auto 2rem auto;
     }
-    &-item {
-    }
-    &-link {
-    }
-    &-picture {
-    }
+    // &-item {
+    // }
+    // &-link {
+    // }
+    // &-picture {
+    // }
     @media (min-width: 810px) {
       grid-row: 1 / 2;
       grid-column: 2 / 3;
@@ -487,17 +482,17 @@
       &-list {
         margin: unset;
       }
-      &-item {
-      }
-      &-link {
-      }
-      &-picture {
-      }
+      // &-item {
+      // }
+      // &-link {
+      // }
+      // &-picture {
+      // }
     }
 
     @media (min-width: 1140px) {
-      &-list {
-      }
+      // &-list {
+      // }
       &-item {
         position: relative;
       }
@@ -525,8 +520,8 @@
           }
         }
       }
-      &-picture {
-      }
+      // &-picture {
+      // }
     }
   }
 }
